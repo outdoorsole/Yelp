@@ -72,6 +72,15 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="addressLabel" destination="P9v-nG-zUL" id="Lw6-Lb-Byr"/>
+                                            <outlet property="categoriesLabel" destination="kKV-cn-5Lu" id="78U-O2-u4A"/>
+                                            <outlet property="distanceLabel" destination="eWT-g3-J3F" id="dgC-d3-P8e"/>
+                                            <outlet property="nameLabel" destination="uZL-eq-zR1" id="Aaa-FR-GrE"/>
+                                            <outlet property="ratingImageView" destination="02A-ab-54f" id="gB3-Ar-tO0"/>
+                                            <outlet property="reviewsCountLabel" destination="Jzb-Ch-YYO" id="ZEP-hC-TbF"/>
+                                            <outlet property="thumbImageView" destination="FSU-xJ-CPl" id="dB6-V4-Tck"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
