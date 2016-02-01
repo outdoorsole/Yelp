@@ -21,6 +21,13 @@ class BusinessCell: UITableViewCell {
     var business: Business! {
         didSet {
             nameLabel.text = business.name
+            print("This is business image: \(business.imageURL)")
+            thumbImageView.setImageWithURL(business.imageURL!)
+            categoriesLabel.text = business.categories
+            addressLabel.text = business.address
+            reviewsCountLabel.text = "\(business.reviewCount!) Reviews"
+            ratingImageView.setImageWithURL(business.ratingImageURL!)
+            distanceLabel.text = business.distance
         }
     }
     override func awakeFromNib() {

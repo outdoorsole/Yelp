@@ -28,9 +28,6 @@
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="121.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FSU-xJ-CPl">
-                                                    <rect key="frame" x="8" y="8" width="75" height="85"/>
-                                                </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="02A-ab-54f">
                                                     <rect key="frame" x="91" y="30" width="83" height="15"/>
                                                 </imageView>
@@ -70,6 +67,9 @@
                                                     <color key="textColor" red="0.45878708964646464" green="0.45878708964646464" blue="0.45878708964646464" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FSU-xJ-CPl">
+                                                    <rect key="frame" x="8" y="8" width="75" height="85"/>
+                                                </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
