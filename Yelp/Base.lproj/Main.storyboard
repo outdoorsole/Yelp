@@ -93,6 +93,9 @@
                             <constraint firstItem="fEA-hm-nhb" firstAttribute="top" secondItem="XhR-oz-92f" secondAttribute="top" id="wkY-1Z-8WQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="fEA-hm-nhb" id="SVS-o9-MG4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Fgb-4b-F1b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
