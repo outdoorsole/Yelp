@@ -2,7 +2,7 @@
 //  BusinessCell.swift
 //  Yelp
 //
-//  Created by Mari Gordon on 1/31/16.
+//  Created by Maribel Montejano on 1/31/16.
 //  Copyright © 2016 Timothy Lee. All rights reserved.
 //
 
