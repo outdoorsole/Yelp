@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Businesses View Controller-->
@@ -29,7 +30,7 @@
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BusinessCell" rowHeight="122" id="rP8-9Z-F83" customClass="BusinessCell" customModule="Yelp" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="136" width="320" height="122"/>
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="rP8-9Z-F83" id="Hgj-KK-k5w">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="rP8-9Z-F83" id="Hgj-KK-k5w">
                                             <rect key="frame" x="0.0" y="0.0" width="320" height="121.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
@@ -72,10 +73,19 @@
                                                     <color key="textColor" red="0.45878708964646464" green="0.45878708964646464" blue="0.45878708964646464" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FSU-xJ-CPl">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FSU-xJ-CPl">
                                                     <rect key="frame" x="8" y="8" width="75" height="85"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="65" id="Kz3-qD-VyP"/>
+                                                        <constraint firstAttribute="width" constant="65" id="YE2-aD-ijd"/>
+                                                    </constraints>
                                                 </imageView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottomMargin" secondItem="FSU-xJ-CPl" secondAttribute="bottom" constant="53" id="2s8-Hm-mDp"/>
+                                                <constraint firstItem="FSU-xJ-CPl" firstAttribute="top" secondItem="Hgj-KK-k5w" secondAttribute="topMargin" constant="7" id="5rt-F6-N7X"/>
+                                                <constraint firstItem="FSU-xJ-CPl" firstAttribute="leading" secondItem="Hgj-KK-k5w" secondAttribute="leadingMargin" constant="8" id="Tib-LR-N7G"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="addressLabel" destination="P9v-nG-zUL" id="Lw6-Lb-Byr"/>
