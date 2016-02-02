@@ -65,7 +65,7 @@
                                                     <color key="textColor" red="0.45878708964646464" green="0.45878708964646464" blue="0.45878708964646464" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2Y-Fl-Gba">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2Y-Fl-Gba">
                                                     <rect key="frame" x="295" y="31" width="17" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                     <color key="textColor" red="0.45878708964646464" green="0.45878708964646464" blue="0.45878708964646464" alpha="1" colorSpace="calibratedRGB"/>
@@ -88,7 +88,9 @@
                                             <constraints>
                                                 <constraint firstItem="02A-ab-54f" firstAttribute="leading" secondItem="FSU-xJ-CPl" secondAttribute="trailing" constant="8" id="0jW-V7-ma0"/>
                                                 <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="FSU-xJ-CPl" secondAttribute="bottom" constant="12" id="2s8-Hm-mDp"/>
+                                                <constraint firstAttribute="trailing" secondItem="Z2Y-Fl-Gba" secondAttribute="trailing" constant="8" id="2vm-FY-wlV"/>
                                                 <constraint firstItem="FSU-xJ-CPl" firstAttribute="top" secondItem="Hgj-KK-k5w" secondAttribute="topMargin" constant="7" id="5rt-F6-N7X"/>
+                                                <constraint firstItem="Z2Y-Fl-Gba" firstAttribute="top" secondItem="eWT-g3-J3F" secondAttribute="bottom" constant="6" id="AjW-8U-MSJ"/>
                                                 <constraint firstItem="eWT-g3-J3F" firstAttribute="leading" secondItem="uZL-eq-zR1" secondAttribute="trailing" constant="8" id="Kg3-7n-s5E"/>
                                                 <constraint firstItem="uZL-eq-zR1" firstAttribute="leading" secondItem="FSU-xJ-CPl" secondAttribute="trailing" constant="8" id="MDO-RT-JbB"/>
                                                 <constraint firstItem="FSU-xJ-CPl" firstAttribute="leading" secondItem="Hgj-KK-k5w" secondAttribute="leadingMargin" constant="8" id="Tib-LR-N7G"/>
